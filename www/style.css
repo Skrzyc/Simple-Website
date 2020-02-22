@@ -1,0 +1,226 @@
+
+	/* Autor strony - Wojciech Mokrzycki */
+	
+/*	*{box-sizing:border-box}	*/
+	
+@media screen and (min-width: 1080px)	/* szerokość od 1080 */
+{
+	
+}
+
+@media screen and (max-width: 500px) /* szerokość 300-500px */
+{
+	#mainheader
+	{
+	font-size: 25px !important;
+	width: 500px !important;
+	}
+	
+	#aboutme
+	{
+	font-size: 13px !important;
+	}
+	#address
+	{ 
+	font-size: 14px !important;
+	}
+	#footer
+	{
+	width: 500px !important;	
+	}
+	
+}
+
+@media screen and (max-width: 850px) /* szerokość 500-850 */
+{
+	#mainheader
+	{
+	font-size: 30px !important;
+	width: 850px !important;
+	margin-left:  !important;
+	}
+	#aboutme
+	{
+	font-size: 14px !important;
+	}
+	#address
+	{ 
+	font-size: 15px !important;
+	}
+	#footer
+	{
+	width: 850px !important;	
+	}
+	
+}
+
+body
+{	
+	background-image: linear-gradient(lightgray, #b3d1ff); 
+	background-attachment: fixed;	
+	margin: 0px auto;
+	width: 100%;
+	font-style: normal;
+	color: BLACK;
+	
+	font-family: 'Open Sans', sans-serif;
+	/*	font-family: 'Lexend Deca', sans-serif;	*/
+}
+#container										/* kolory; ciemnoniebieski- #1E1E3E	,jasnoniebieski- #3F3F5F ,jeszcze jaśniejszy #99CCFF */
+{
+	width: 790px;
+	height: 1250px;
+	
+	margin: 0px auto ;
+	padding: 10px 0px;
+	
+	background-image: url("IMG/dot1.png") ;
+	
+	border-color: #3F3F5F;
+	border-width: 0px 10px 10px 10px;
+	border-style: solid;
+}
+.headersection
+{
+	width: 165px;
+	height: 40px;
+	
+	padding: 3px 0px 0px 30px;
+	margin: 50px 0px 20px -10px;
+	
+	background-color: #3F3F5F;
+	color: white;
+	
+	font-weight: bold;
+	font-size: 1.85em;
+	font-family: 'Lexend Deca', sans-serif;
+	
+	word-spacing: 8px;
+	letter-spacing: 2px;
+	
+	border: 10px solid #3F3F5F;
+	border-radius: 10px;
+	
+	clear: both ;
+}
+.tile
+{
+	border: 10px solid #3F3F5F;
+	border-radius: 10px;
+	
+	background-color:  white;
+	color:	#1E1E3E;
+	
+	font-weight: bold;
+	font-size: 1em;
+	text-align: left;
+	
+	float: left ;
+}
+#mainheader
+{
+	width: 100%;
+	height: 85px;
+	
+	text-align: center ;
+	text-transform: capitalize;
+	text-shadow: -3px 3px black;
+	font-weight: bold;
+	
+	word-spacing: 7px;
+	letter-spacing: 1px;
+	font-size: 40px;
+	
+	padding-top: 15px;
+	
+	background-color: #3F3F5F;
+	color: white;
+}
+
+#photo
+{
+	width: 195px;
+	height: 255px;
+	margin-left: -10px;
+}
+#aboutme		
+{
+	width: 535px;
+	height: 235px;
+	font-size: 15px;
+	text-align: center;
+	
+	margin: 0px -10px 0px 20px;
+	padding: 10px;
+	
+	overflow-y: auto;
+}
+#phone
+{
+	width: 330px;
+	height: 110px;
+	
+	margin: 0px 20px 0px -10px;
+	padding: 0px;
+	
+	word-spacing: 2px;
+
+	list-style-type: none;
+	
+	overflow-y: auto;
+}
+#mail
+{
+	width: 420px;
+	height:	50px;
+	
+	font-size: 21px;
+	text-align: center;
+	margin-right: -20px;
+}
+#address
+{	
+	width: 355px;
+	height: 225px;
+	
+	padding: 15px;
+	margin-left: -10px;
+	
+	overflow-y: auto;
+	
+	float: left;
+}
+#map
+{
+	width: 365px;
+	height: 278px;
+	
+	margin: 0px -20px 0px 20px;
+	position: relative;
+	
+	float: left;
+}
+#map:hover
+{
+	opacity: 0.8;
+}
+#footer
+{	
+	width: 100%;
+	height: 14px;
+	margin: -10px auto 0px auto; 
+	background-color: #3F3F5F;
+	clear: both;
+	
+	text-align: center;
+	font-size: 9px;
+	padding: 8px 0px;
+	color: lightgray;
+}
+ul 
+{
+	list-style-type: none;
+	list-style-position: inside;
+	margin: 0;
+	padding: 0;
+}
